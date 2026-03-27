@@ -13,7 +13,7 @@ public class AdapterPattern {
         }
     }
 
-    // Новий інтерфейс, який використовує твоя система (наприклад, з 1-ї лаби)
+    // Новий інтерфейс
     public interface ModernTransport {
         void drive();
     }
