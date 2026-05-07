@@ -8,7 +8,7 @@ public class StreamTasks {
     // 1. Використовуючи лямбда-вираз, відфільтрувати непарні числа зі списку цілих чисел
     public static List<Integer> filterOddNumbers(List<Integer> numbers) {
         return numbers.stream()
-                .filter(n -> n % 2 != 0)
+                .filter(n -> n % 2 == 0)
                 .collect(Collectors.toList());
     }
 
